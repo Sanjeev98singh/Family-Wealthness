@@ -1,0 +1,45 @@
+/* Footer.css */
+.footer {
+    background-color: #32b8b8;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    /* border-top: 5px solid red; */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.footer p:last-of-type {
+    margin-top: 1rem;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 1.5rem 1rem;
+    }
+
+    .footer h2 {
+        font-size: 1.8rem;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+
+    .footer p:last-of-type {
+        font-size: 0.8rem;
+    }
+}
